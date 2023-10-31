@@ -1,7 +1,11 @@
-import { Container } from "./styles"
-
+import { Button } from "../../components/Button";
+import { Container } from "./styles";
+import { Header } from "../../components/Header";
 export function Home(){
   return(
-    < Container>hello world</ Container>
+    < Container>
+      <Header />
+     <Button title="Add Movie" />
+   </ Container> 
   )
 }

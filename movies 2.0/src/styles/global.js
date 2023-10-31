@@ -10,6 +10,16 @@ export default createGlobalStyle`
   body{
     color: ${({theme}) => theme.COLORS.WHITE};  
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
+    
+  }
+
+
+  body, input, button, textarea {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    outline: none;
+  
   }
 
   a{
