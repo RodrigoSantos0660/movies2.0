@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-
+import { GrFormAdd } from "react-icons/gr"
 export function Button({title, loading = false, ...rest }) {
  return(
    <Container 
@@ -7,6 +7,9 @@ export function Button({title, loading = false, ...rest }) {
     disabled={loading}
     {...rest}
    >
+    <div className="icone">
+     <GrFormAdd/>
+    </div>
     {loading? "Loading..." : title}
    </Container>
   

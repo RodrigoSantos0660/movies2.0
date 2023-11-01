@@ -4,6 +4,9 @@ export const Container = styled.button`
  width:100%;
  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
  color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+ display: flex;
+ align-items: center;
+ justify-content: center;
 
  height: 56px;
  border: 0;
@@ -15,6 +18,16 @@ export const Container = styled.button`
  &:disabled {
   opacity: 0.5;
 }
+.icone {
+   display: flex;
+   > svg{
+   margin-top: 2px;
+   height: 25px;
+   width: 25px;
+  
+  }
+  
+  }
 
 
 `;

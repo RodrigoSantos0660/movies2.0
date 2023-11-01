@@ -4,7 +4,7 @@ export function Header(){
  return(
    <Container>
 
-    <div class="logo">Rocketmovies</div>
+    <div className="logo">Rocketmovies</div>
       <Input placeholder="Search For Movie" />
      <Profile>
        <div>
