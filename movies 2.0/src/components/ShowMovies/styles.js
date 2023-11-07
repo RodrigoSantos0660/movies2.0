@@ -9,6 +9,8 @@ export const Container = styled.div`
  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
  padding: 10px 20px;
  border-radius: 10px;
-
+ > div{
+ margin:6px 0px;
+}
 
 `;

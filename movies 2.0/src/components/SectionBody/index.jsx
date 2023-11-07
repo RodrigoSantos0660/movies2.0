@@ -10,6 +10,7 @@ export function SectionBody(){
     <div>
      <h1>My movies</h1>
      <Button title="Add Movie" />
+    
     </div>
     <ShowMovies/>
     <ShowMovies/>
