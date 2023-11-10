@@ -1,5 +1,6 @@
 import { Container } from "./styles";
 import { Button } from "../Button"
+import { GrFormAdd } from "react-icons/gr"
 import { ShowMovies } from "../ShowMovies";
 
 
@@ -9,7 +10,11 @@ export function SectionBody(){
    <Container>
     <div>
      <h1>My movies</h1>
-     <Button title="Add Movie" />
+     <Button
+      title = "+ add movie"
+      
+
+     />
     
     </div>
     <ShowMovies/>
